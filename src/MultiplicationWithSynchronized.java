@@ -1,4 +1,4 @@
-public class Multiplication {
+public class MultiplicationWithSynchronized {
     final Object object = new Object();
     public  void multiplication (int x){
             synchronized (object) {
